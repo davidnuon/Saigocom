@@ -6,7 +6,7 @@ profile_saigo() {
 		Suitable for routers and servers.
 		Runs from RAM.
 		Includes AMD and Intel microcode updates."
-	arch="x86 x86_64"
+	arch="x86"
 	kernel_addons="xtables-addons zfs"
 	boot_addons="amd-ucode intel-ucode"
 	initrd_ucode="/boot/amd-ucode.img /boot/intel-ucode.img"
