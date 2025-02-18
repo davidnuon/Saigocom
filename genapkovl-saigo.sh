@@ -119,10 +119,10 @@ mkdir -p /root/.config
 tar -xzvf /etc/tint2.tar.gz -C /root/.config
 tar -xzvf /etc/openbox.tar.gz -C /root/.config
 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# mv /etc/setup-alpine /sbin/setup-alpine
+# chmod +x /sbin/setup-alpine
 
-mv /etc/setup-alpine /sbin/setup-alpine
-chmod +x /sbin/setup-alpine
 cp /etc/.xinitrc /root/
 cp /etc/.profile /root/
 /root/.profile
