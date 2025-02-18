@@ -24,6 +24,7 @@ COPY ./genapkovl-saigo.sh /home/build/aports/scripts/
 COPY ./openbox.tar.gz /home/build/aports/scripts/
 COPY ./search.py /home/build/aports/scripts/
 COPY ./tint2.tar.gz /home/build/aports/scripts/
+COPY ./wallpaper.png /home/build/aports/scripts/
 
 RUN sh ~/aports/scripts/mkimage.sh --tag v3.21 \
     --outdir ~/iso \

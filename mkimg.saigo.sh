@@ -17,7 +17,7 @@ profile_saigo() {
 		usbutils v86d vim xtables-addons curl
 
 		acct arpon arpwatch awall bridge-utils bwm-ng
-		ca-certificates conntrack-tools cutter cyrus-sasldnsmasq fping fprobe htop
+		ca-certificates conntrack-tools cutter fping fprobe htop
 		igmpproxy ip6tables iproute2 iproute2-qos
 		iptables iputils nftables iw kea ldns-tools links
 		ncurses-terminfo net-snmp net-snmp-tools nrpe nsd
@@ -37,7 +37,7 @@ profile_saigo() {
 		xf86-input-synaptics xf86-input-vmmouse xf86-input-evdev
 		xf86-video-intel sddm
 		alsa-utils alsaconf pulseaudio pulseaudio-utils
-		pavucontrol-qt
+		pavucontrol-qt xinit
 
 		feh tint2 picom flatpak
 		"
@@ -50,5 +50,5 @@ profile_saigo() {
 		done
 	done
 	apks="$apks linux-firmware linux-firmware-none"
-	apkovl="genapkovl-saigo.sh"
+	apkovl="/home/build/aports/scripts/genapkovl-saigo.sh"
 }
